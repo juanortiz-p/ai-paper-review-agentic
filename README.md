@@ -131,6 +131,8 @@ Final Research Report
 - Python
 - Streamlit
 - Groq API
+- AsyncIO
+- LangChain
 - Llama 3.1
 - arXiv API
 - Pandas
