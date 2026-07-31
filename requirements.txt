@@ -1,2 +1,6 @@
+groq == 1.6.0
+nbconvert == 7.17.1
 pandas == 3.0.5
+python-dotenv == 1.2.2
 requests == 2.34.2
+streamlit == 1.60.0
