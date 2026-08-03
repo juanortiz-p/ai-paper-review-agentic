@@ -1,0 +1,102 @@
+{
+    "research_topic": "i want to investigate about covid-19 vaccine validation",
+    "arxiv_query": "(all:\"Covid-19\" OR all:\"SARS-CoV-2\") AND (all:\"vaccine validation\" OR all:\"vaccine efficacy\")",
+    "papers_found": 5,
+    "papers_approved": 5,
+    "report": {
+        "executive_summary": "Recent studies have proposed various methods to improve the validation of COVID-19 vaccines, including mitigating bias in time-varying vaccine effects, estimating cumulative incidence curves, and assessing vaccine waning.",
+        "main_trends": [
+            "Development of new methods to improve vaccine validation",
+            "Increased focus on mitigating bias and estimating cumulative incidence curves"
+        ],
+        "key_differences": [
+            "Different approaches to mitigating bias in time-varying vaccine effects",
+            "Variations in methods for estimating cumulative incidence curves"
+        ],
+        "recommended_reading_order": [
+            {
+                "position": 1,
+                "title": "Debiasing hazard-based, time-varying vaccine effects using vaccine-irrelevant infections",
+                "reason": "This paper proposes a method to mitigate bias in time-varying vaccine effects, making it a good starting point for understanding this topic."
+            },
+            {
+                "position": 2,
+                "title": "Efficient estimation of cumulative incidence curves via data fusion with surrogates",
+                "reason": "This paper proposes methods for estimating cumulative incidence curves, which is an important aspect of vaccine validation."
+            },
+            {
+                "position": 3,
+                "title": "A simple and powerful test of vaccine waning",
+                "reason": "This paper proposes a new test to assess vaccine waning, which is an important aspect of vaccine validation."
+            }
+        ],
+        "final_recommendation": "Read the papers in the recommended reading order to gain a comprehensive understanding of the current state of COVID-19 vaccine validation and to identify potential areas for further research."
+    },
+    "papers": [
+        {
+            "title": "Debiasing hazard-based, time-varying vaccine effects using vaccine-irrelevant infections: An observational extension of a pivotal Phase 3 COVID-19 vaccine efficacy trial",
+            "authors": "Ethan Ashby, Dean Follmann, Holly Janes, Peter B. Gilbert, Ting Ye, Lindsey R. Baden, Hana M. El Sahly, Bo Zhang",
+            "published": "2025-11-19T04:15:15Z",
+            "url": "http://arxiv.org/abs/2511.15099v1",
+            "summary": "The paper proposes a method to mitigate bias in time-varying vaccine effects using vaccine-irrelevant infections.",
+            "main_problem": "Hidden biases in time-varying vaccine effectiveness estimates obtained using Cox regression.",
+            "main_contribution": "A method to leverage vaccine-irrelevant infections to identify hazard-based, time-varying vaccine effectiveness in the presence of unmeasured confounding and selection bias.",
+            "applications": "The proposed method can be applied to provide evidence-based guidance for public health decision making.",
+            "limitations": "The method assumes certain conditions and may not be applicable in all scenarios.",
+            "relevance_score": 9,
+            "relevance_reason": "The paper directly addresses the user's research topic of COVID-19 vaccine validation by proposing a method to mitigate bias in time-varying vaccine effects, making it highly relevant."
+        },
+        {
+            "title": "Efficient estimation of cumulative incidence curves via data fusion with surrogates: application to integrated analysis of vaccine trial and immunobridging data",
+            "authors": "Pan Zhao, Peter B. Gilbert, Oliver Dukes, Bo Zhang",
+            "published": "2026-04-14T19:53:16Z",
+            "url": "http://arxiv.org/abs/2604.13265v1",
+            "summary": "The paper proposes methods for estimating cumulative incidence curves using data from vaccine trials and immunobridging studies, with applications to COVID-19 vaccine validation.",
+            "main_problem": "Estimating cumulative incidence curves for vaccine trials and immunobridging studies",
+            "main_contribution": "Developing efficient and multiply robust estimators for counterfactual cumulative incidence curves",
+            "applications": "Estimating the hypothetical cumulative incidence curve for a bivalent mRNA booster, testing key assumptions of no controlled direct effects",
+            "limitations": "Limited to pathogens with multiple serotypes, such as dengue virus and influenza",
+            "relevance_score": 9,
+            "relevance_reason": "The paper directly addresses the user's research topic by proposing methods for estimating cumulative incidence curves using data from vaccine trials and immunobridging studies, with applications to COVID-19 vaccine validation."
+        },
+        {
+            "title": "A simple and powerful test of vaccine waning",
+            "authors": "Gellért Perényi, Matias Janvin, Mats J. Stensrud",
+            "published": "2025-11-26T19:06:15Z",
+            "url": "http://arxiv.org/abs/2511.21836v2",
+            "summary": "The paper proposes a new test to assess whether vaccine efficacy wanes over time, providing a power gain over existing approaches and valid under interpretable assumptions.",
+            "main_problem": "Determining whether vaccine efficacy wanes over time is a subtle task, and classical approaches have limitations.",
+            "main_contribution": "A new formal test to assess vaccine waning, which provides a power gain over existing approaches and is valid under interpretable assumptions.",
+            "applications": "The proposed test can be used in vaccine trials to assess whether vaccine efficacy wanes over time, which can inform individual and public decision making.",
+            "limitations": "The paper does not provide a comprehensive review of existing approaches, and the new test is only illustrated through real and simulated examples.",
+            "relevance_score": 9,
+            "relevance_reason": "The paper directly addresses the user's research topic by investigating vaccine validation, specifically the waning of vaccine efficacy over time, and proposes a new formal test to assess vaccine waning."
+        },
+        {
+            "title": "Nonparametric bounds for vaccine effects in randomized trials",
+            "authors": "Rachel Axelrod, Uri Obolski, Daniel Nevo",
+            "published": "2025-10-29T09:00:30Z",
+            "url": "http://arxiv.org/abs/2510.25296v2",
+            "summary": "The paper proposes nonparametric causal bounds for vaccine effects in randomized trials, addressing the issue of behavioral effects when blinding is broken.",
+            "main_problem": "The paper addresses the problem of estimating vaccine efficacy when blinding is broken, leading to biased estimates.",
+            "main_contribution": "The paper contributes nonparametric causal bounds for different types of vaccine efficacy, using linear programming-based and monotonicity-based methods.",
+            "applications": "The proposed bounds can be applied to vaccine trials, providing a more accurate estimate of vaccine efficacy.",
+            "limitations": "The paper assumes the absence of unmeasured common causes of infection risk and participants' belief about whether they received the vaccine, which may not always be the case.",
+            "relevance_score": 9,
+            "relevance_reason": "The paper directly addresses the user's research topic of COVID-19 vaccine validation by proposing nonparametric causal bounds for vaccine effects in randomized trials."
+        },
+        {
+            "title": "Sequentially Doubly Robust Estimation of Conditional Survival Probability with Time-Varying Covariates",
+            "authors": "Hongxiang Qiu, Marco Carone, Alex Luedtke, Peter B. Gilbert",
+            "published": "2025-10-12T00:00:55Z",
+            "url": "http://arxiv.org/abs/2510.10372v4",
+            "summary": "The paper proposes a nonparametric estimator for conditional survival probability with time-varying covariates, accounting for censoring due to these covariates.",
+            "main_problem": "Estimating conditional survival probability with time-varying covariates while accounting for censoring.",
+            "main_contribution": "A sequentially doubly robust estimator for conditional survival probability with time-varying covariates.",
+            "applications": "Vaccine trials, studying the association between immune response levels and the cumulative incidence of an endpoint.",
+            "limitations": "The paper relies on the assumption that the censoring distribution is consistently estimated within each time window.",
+            "relevance_score": 8,
+            "relevance_reason": "The paper's focus on conditional survival probability with time-varying covariates and its application to vaccine trials make it strongly related to the user's research topic of COVID-19 vaccine validation."
+        }
+    ]
+}
